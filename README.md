@@ -8,7 +8,7 @@ KTPM K22B
 | Tiêu chí | Cách THỦ CÔNG (Traditional) | Cách DEVOPS (CI/CD Pipeline) |
 |----------|---------------------------|------------------------------|
 | **Làm sao để deploy?** | Lập trình viên tự sao chép file, tải mã nguồn lên máy chủ | Push code lên GitHub → pipeline tự chạy |
-| **Mất bao lâu?** | 15phuts | ~10 giây |
+| **Mất bao lâu?** | 15 phút | ~10 giây |
 | **Ai làm deploy?** | lập trình viên | GitHub Actions (máy tự làm) |
 | **Có bị sai sót không?** | có thể sai sót | Không — pipeline nhất quán 100% |
 | **Rollback nếu lỗi?** | Khôi phục bản sao lưu (backup) cũ hoặc sửa trực tiếp trên máy chủ bằng tay. | `git revert` + push → tự động rollback |
